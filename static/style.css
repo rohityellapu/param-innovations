@@ -43,6 +43,10 @@
     animation: scale 1.5s ease-out;
 }
 
+.start {
+    animation: fade-bottom 1s ease-in;
+}
+
 @keyframes fade-bottom {
     0% {
         transform: translateY(50px);
